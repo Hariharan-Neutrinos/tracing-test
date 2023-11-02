@@ -1,0 +1,13 @@
+{
+    "displayName": "tracing-test",
+    "appName": "tracing-test",
+    "description": "test",
+    "lastModified": "2023-11-02T06:46:07.021Z",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "appType": "apiOnly",
+    "templateName": "blank",
+    "createDate": "2023-11-02T06:45:59.558Z",
+    "analyticsId": "734ddf4b-19f9-d8d4-5c87-6c5731d3e842",
+    "createdStudioVersion": "9.2.0"
+}

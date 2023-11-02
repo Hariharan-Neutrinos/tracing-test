@@ -1,0 +1,121 @@
+[
+    {
+        "id": "SSD_SERVICE_ID_sd_hWXCX3NNZeFuNuI5",
+        "type": "tab",
+        "createdDate": "2023-11-02T06:46:20.577Z",
+        "label": "sample",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "sample",
+        "relativeParentPath": ""
+    },
+    {
+        "id": "sd_Cs8MekxI1BT9GolV",
+        "type": "HttpIn",
+        "z": "SSD_SERVICE_ID_sd_hWXCX3NNZeFuNuI5",
+        "viewType": "server",
+        "nodeType": "start",
+        "name": "",
+        "path": "test",
+        "uploadpath": "",
+        "summary": "",
+        "description": "",
+        "method": "post",
+        "sequenceId": "",
+        "consumes": "",
+        "produces": "",
+        "filetype": "path",
+        "acceptFileUpload": false,
+        "useDataModel": false,
+        "dataModelIsArray": false,
+        "erd": "",
+        "erdName": "",
+        "entity": "",
+        "entityId": "",
+        "ref": "",
+        "editableListData": {
+            "responses": [],
+            "params": [],
+            "produces": [],
+            "consumes": []
+        },
+        "inputs": 0,
+        "outputs": 1,
+        "validateRequestUsingSwaggerDocs": false,
+        "category": "HTTP",
+        "x": 60,
+        "y": 120,
+        "wires": [
+            [
+                "sd_8YZYG3hH8eViuvlh"
+            ]
+        ],
+        "__ssdTypeInputs__": {
+            "uploadpath": {
+                "type": "str",
+                "value": "",
+                "nullable": "true",
+                "nullableValue": "",
+                "constant": false
+            }
+        },
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "sample",
+        "functionName": "sd_Cs8MekxI1BT9GolV"
+    },
+    {
+        "id": "sd_8YZYG3hH8eViuvlh",
+        "type": "HttpOut",
+        "z": "SSD_SERVICE_ID_sd_hWXCX3NNZeFuNuI5",
+        "viewType": "server",
+        "nodeType": "flow",
+        "name": "",
+        "headers": {},
+        "responseBody": {
+            "type": "literal",
+            "value": "\"Tracing works!\"",
+            "ssd_typedInputField": true
+        },
+        "httpcode": {
+            "type": "num",
+            "value": 200,
+            "ssd_typedInputField": true
+        },
+        "responseType": "obj",
+        "swaggerResponse": {},
+        "responseMapping": {
+            "status": 200,
+            "obj": "\"Tracing works!\"",
+            "send": "\"Tracing works!\""
+        },
+        "dataModelIsArray": false,
+        "inputs": 1,
+        "outputs": 0,
+        "erd": "",
+        "entity": "",
+        "entityId": "",
+        "ref": "",
+        "editableListData": {
+            "headers": [],
+            "produces": [],
+            "responses": []
+        },
+        "cookiesList": {},
+        "switchStates": {
+            "headers": "Map",
+            "cookies": "Map"
+        },
+        "functionName": "sd_8YZYG3hH8eViuvlh",
+        "category": "HTTP",
+        "x": 200,
+        "y": 120,
+        "wires": [],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "serviceName": "sample",
+        "generated": true
+    }
+]
